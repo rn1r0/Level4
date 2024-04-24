@@ -1,0 +1,160 @@
+body {
+  background-color: #E0115F;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  text-decoration: underline;
+  color: #fdfdfd;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.about-container {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  background-color: lightgrey ; 
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.about-title {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-info {
+  text-align: left;
+  color: #333;
+}
+
+.link {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #050505;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.home-text {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+
+p {
+  font-family: 'Tahoma', sans-serif;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.centered-links {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pokemon-item {
+  margin-top: 10px;
+}
+
+.pokemon-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold; 
+}
+
+.pokemon-link:hover {
+  text-decoration: underline; 
+}
+
+.pokemon-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemon-name,
+.pokemon-type,
+.pokemon-id {
+  text-align: center;
+}
+
+.pokemon-image {
+  width: 200px; 
+}
+
+.pokemon-stats-list,
+.pokemon-moves-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemon-stats-list {
+  margin-bottom: 20px;
+}
+
+.pokemon-moves-list {
+  margin-top: 20px; 
+}
+
+.pokemon-stats-title,
+.pokemon-moves-title {
+  text-align: center; 
+}
+
+.poke-image {
+  width: 400px;
+}
